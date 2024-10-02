@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "e7c8b930955431d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "88b9523df1efa3d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82ec3e7ef4b1f431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws/sam/101.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a71b90f9b587e087",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d41bdd8fcbb785a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9995b179462154f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c384fd2130d2a2b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bdbf2e40fe5442e9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "right": {
+    "id": "fdb180211a08c266",
+    "type": "split",
+    "children": [
+      {
+        "id": "82c680ae4d2d0933",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a92284fea550e0f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "aws/sam/101.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "373d371812797a04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "aws/sam/101.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5cbbdf69d70b5bbe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "db4c5a325841a447",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "aws/sam/101.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9995b179462154f8",
+  "lastOpenFiles": [
+    "delete",
+    "software-development/infrastructure as code (IaC).md",
+    "aws/sam/101.md",
+    "aws/severless-java-container/index.md",
+    "aws/sam",
+    "aws/Untitled.md",
+    "aws/lambda/index.md",
+    "innoqb-eroses/setup.md",
+    "innoqb-eroses/branch.md",
+    "software-development/api gateway - todo.md",
+    "software-development/api monetization.md",
+    "networking/proxy.md",
+    "java/mybatis/github.md",
+    "java/todo.md",
+    "software-development",
+    "networking",
+    "aws/severless-java-container",
+    "aws/lambda",
+    "aws",
+    "java/mybatis/index.md",
+    "java/mybatis/todo.md",
+    "todo.md",
+    "wallpaper.md",
+    "Untitled",
+    "java-spring/auditing/auditor-aware.md",
+    "java-spring/auditing/todo.md",
+    "java-spring/packages/data/domain.md",
+    "java-spring/packages/data/annotation.md",
+    "java-spring/packages/data",
+    "java-spring/packages",
+    "java-spring/auditing",
+    "java/intellij/issues/lombok annotations not being detected.md",
+    "java/intellij/issues.md",
+    "java/Untitled.md",
+    "neovim/todo.md",
+    "security/todo.md",
+    "neovim/reddit/Untitled.canvas"
+  ]
+}
