@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88b9523df1efa3d4",
+        "id": "12fda1aa5da29b82",
         "type": "tabs",
         "children": [
           {
-            "id": "82ec3e7ef4b1f431",
+            "id": "c6dc6bc1029b34d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/sam/101.md",
+                "file": "docker/todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/sam/101.md",
+                "file": "docker/todo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/sam/101.md",
+                "file": "docker/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/sam/101.md"
+                "file": "docker/todo.md"
               }
             }
+          },
+          {
+            "id": "ba20ff62a96bb951",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +155,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9995b179462154f8",
+  "active": "c6dc6bc1029b34d6",
   "lastOpenFiles": [
+    "hyprland/todo.md",
+    "docker/todo.md",
+    "Untitled",
+    "intellij/todo.md",
+    "hyprland",
+    "arch btw/todo.md",
+    "intellij",
+    "git/todo.md",
+    "arch btw/pacman/best practise.md",
+    "arch btw/pacman/makepkg",
+    "arch btw/pacman",
+    "aws/sam/101.md",
     "delete",
     "software-development/infrastructure as code (IaC).md",
-    "aws/sam/101.md",
     "aws/severless-java-container/index.md",
     "aws/sam",
     "aws/Untitled.md",
@@ -166,25 +185,14 @@
     "software-development",
     "networking",
     "aws/severless-java-container",
-    "aws/lambda",
-    "aws",
     "java/mybatis/index.md",
     "java/mybatis/todo.md",
     "todo.md",
     "wallpaper.md",
-    "Untitled",
     "java-spring/auditing/auditor-aware.md",
     "java-spring/auditing/todo.md",
     "java-spring/packages/data/domain.md",
     "java-spring/packages/data/annotation.md",
-    "java-spring/packages/data",
-    "java-spring/packages",
-    "java-spring/auditing",
-    "java/intellij/issues/lombok annotations not being detected.md",
-    "java/intellij/issues.md",
-    "java/Untitled.md",
-    "neovim/todo.md",
-    "security/todo.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }
