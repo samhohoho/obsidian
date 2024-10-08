@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/todo.md",
+                "file": "linux/cURL/example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/todo.md",
+                "file": "linux/cURL/example.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/todo.md",
+                "file": "linux/cURL/example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/todo.md"
+                "file": "linux/cURL/example.md"
               }
             }
           },
@@ -158,11 +158,17 @@
   "active": "c6dc6bc1029b34d6",
   "lastOpenFiles": [
     "hyprland/todo.md",
+    "linux/cURL/example.md",
+    "linux/cURL",
+    "innoqb-eroses/setup.md",
+    "todo.md",
+    "neovim/todo.md",
+    "java/todo.md",
+    "arch btw/todo.md",
     "docker/todo.md",
     "Untitled",
     "intellij/todo.md",
     "hyprland",
-    "arch btw/todo.md",
     "intellij",
     "git/todo.md",
     "arch btw/pacman/best practise.md",
@@ -175,24 +181,18 @@
     "aws/sam",
     "aws/Untitled.md",
     "aws/lambda/index.md",
-    "innoqb-eroses/setup.md",
     "innoqb-eroses/branch.md",
     "software-development/api gateway - todo.md",
     "software-development/api monetization.md",
     "networking/proxy.md",
     "java/mybatis/github.md",
-    "java/todo.md",
     "software-development",
     "networking",
-    "aws/severless-java-container",
     "java/mybatis/index.md",
     "java/mybatis/todo.md",
-    "todo.md",
     "wallpaper.md",
     "java-spring/auditing/auditor-aware.md",
     "java-spring/auditing/todo.md",
-    "java-spring/packages/data/domain.md",
-    "java-spring/packages/data/annotation.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }

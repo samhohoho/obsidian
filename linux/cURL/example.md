@@ -1,0 +1,1 @@
+curl -d "@test.json" -H "Content-Type: application/json" --request POST https://4cmeuxtp0j.execute-api.ap-southeast-5.amazonaws.com/Prod/api/society/meeting/create
