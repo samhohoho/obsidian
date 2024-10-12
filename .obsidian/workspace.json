@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12fda1aa5da29b82",
+        "id": "0c88fc74bd98b38d",
         "type": "tabs",
         "children": [
           {
-            "id": "c6dc6bc1029b34d6",
+            "id": "5c58dc92323fc4eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/cURL/example.md",
+                "file": "git/branch/commit differences.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/cURL/example.md",
+                "file": "git/branch/commit differences.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/cURL/example.md",
+                "file": "git/branch/commit differences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/cURL/example.md"
+                "file": "git/branch/commit differences.md"
               }
             }
           },
@@ -155,44 +155,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6dc6bc1029b34d6",
+  "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
-    "hyprland/todo.md",
-    "linux/cURL/example.md",
-    "linux/cURL",
-    "innoqb-eroses/setup.md",
-    "todo.md",
+    "git/branch/branch rename.md",
+    "git/branch/commit differences.md",
+    "git/branch",
+    "git/branch.md",
+    "git/todo.md",
+    "java-spring/packages/mapstruct/issues/empty mapped object.md",
+    "java-spring/packages/mapstruct/Untitled.md",
+    "java-spring/packages/mapstruct/issues",
+    "java-spring/packages/mapstruct",
+    "java-spring/todo.md",
+    "java-spring/packages/data/annotation.md",
+    "java-spring/packages/data/domain.md",
+    "arch btw/shell/zsh.md",
+    "arch btw/shell/bin vs usr.bin.md",
+    "arch btw/shell/Untitled",
+    "arch btw/shell/changing default shell.md",
+    "arch btw/shell/todo.md",
+    "arch btw/shell",
     "neovim/todo.md",
+    "innoqb-eroses/setup.md",
+    "innoqb-eroses/todo.md",
+    "neovim/dotfiles.md",
+    "AjkBranchWriteDomainService.java",
+    "AjkBranchMapper.java",
+    "WriteAjkBranchRequest.java",
+    "AjkBranchWriteFacadeImpl.java",
+    "AjkBranchWriteFacade.java",
+    "arch btw/install history.md",
+    "arch btw/install.md",
+    "arch btw/pacman/best practise.md",
+    "linux/cURL/example.md",
+    "hyprland/todo.md",
+    "todo.md",
     "java/todo.md",
     "arch btw/todo.md",
     "docker/todo.md",
-    "Untitled",
-    "intellij/todo.md",
-    "hyprland",
-    "intellij",
-    "git/todo.md",
-    "arch btw/pacman/best practise.md",
-    "arch btw/pacman/makepkg",
-    "arch btw/pacman",
-    "aws/sam/101.md",
-    "delete",
-    "software-development/infrastructure as code (IaC).md",
-    "aws/severless-java-container/index.md",
-    "aws/sam",
-    "aws/Untitled.md",
-    "aws/lambda/index.md",
-    "innoqb-eroses/branch.md",
-    "software-development/api gateway - todo.md",
-    "software-development/api monetization.md",
-    "networking/proxy.md",
-    "java/mybatis/github.md",
-    "software-development",
-    "networking",
-    "java/mybatis/index.md",
-    "java/mybatis/todo.md",
-    "wallpaper.md",
-    "java-spring/auditing/auditor-aware.md",
-    "java-spring/auditing/todo.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }
