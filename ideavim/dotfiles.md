@@ -1,0 +1,1 @@
+https://github.com/magidc/dotfiles/blob/master/jetbrains/ideavimrc

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/branch/commit differences.md",
+                "file": "ideavim/dotfiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/branch/commit differences.md",
+                "file": "ideavim/dotfiles.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/branch/commit differences.md",
+                "file": "ideavim/dotfiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/branch/commit differences.md"
+                "file": "ideavim/dotfiles.md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
-    "git/branch/branch rename.md",
+    "java/exception handling.md",
+    "ideavim/dotfiles.md",
+    "ideavim",
+    "java-spring/contructor injection.md",
     "git/branch/commit differences.md",
+    "git/branch/branch rename.md",
     "git/branch",
     "git/branch.md",
     "git/todo.md",
@@ -183,16 +187,12 @@
     "AjkBranchMapper.java",
     "WriteAjkBranchRequest.java",
     "AjkBranchWriteFacadeImpl.java",
-    "AjkBranchWriteFacade.java",
     "arch btw/install history.md",
     "arch btw/install.md",
     "arch btw/pacman/best practise.md",
     "linux/cURL/example.md",
     "hyprland/todo.md",
     "todo.md",
-    "java/todo.md",
-    "arch btw/todo.md",
-    "docker/todo.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }
