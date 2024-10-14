@@ -9,3 +9,4 @@ thread-safe
 
 _try-with-resources_ block:
 int vs Integer, bool
+Map<>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideavim/dotfiles.md",
+                "file": "arch btw/todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ideavim/dotfiles.md",
+                "file": "arch btw/todo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ideavim/dotfiles.md",
+                "file": "arch btw/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideavim/dotfiles.md"
+                "file": "arch btw/todo.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
-    "java/exception handling.md",
+    "innoqb-eroses/todo.md",
+    "java/todo.md",
     "ideavim/dotfiles.md",
+    "java/exception handling.md",
     "ideavim",
     "java-spring/contructor injection.md",
     "git/branch/commit differences.md",
@@ -181,7 +183,6 @@
     "arch btw/shell",
     "neovim/todo.md",
     "innoqb-eroses/setup.md",
-    "innoqb-eroses/todo.md",
     "neovim/dotfiles.md",
     "AjkBranchWriteDomainService.java",
     "AjkBranchMapper.java",
@@ -192,7 +193,6 @@
     "arch btw/pacman/best practise.md",
     "linux/cURL/example.md",
     "hyprland/todo.md",
-    "todo.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }

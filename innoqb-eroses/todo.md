@@ -10,6 +10,9 @@ erosessocietyfunction
 viewlogsinsight
 edit run query
 make api call, run query
+check list before update memberAtt
+improve meeting paging
+meeting paging code cleanup
 
 CHECK
 cloudwatch doc
