@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "innoqb-eroses/todo.md",
+                "file": "java/todo.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "todo"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "innoqb-eroses/todo.md",
+                "file": "hyprland/todo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for todo"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "innoqb-eroses/todo.md",
+                "file": "hyprland/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from todo"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "innoqb-eroses/todo.md"
-              }
+                "file": "hyprland/todo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of todo"
             }
           },
           {
@@ -134,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -157,12 +175,27 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
-    "arch btw/todo.md",
+    "innoqb-eroses/setup.md",
     "innoqb-eroses/todo.md",
+    "arch btw/wiki/postgresql.md",
+    "arch btw/wiki/sudo.md",
+    "arch btw/wiki/systemd.md",
+    "https.md",
     "arch btw/manual.md",
+    "arch btw/wiki",
+    "arch btw/wiki.md",
+    "Pasted image 20241019170814.png",
+    "arch btw/install history.md",
+    "arch btw/install.md",
     "arch btw/maintainence/general recommendations.md",
-    "arch btw/maintainence",
+    "arch btw/pacman/best practise.md",
+    "arch btw/todo.md",
+    "java/collections.md",
+    "Pasted image 20241019170731.png",
+    "hyprland/todo.md",
     "java/todo.md",
+    "neovim/todo.md",
+    "arch btw/maintainence",
     "ideavim/dotfiles.md",
     "java/exception handling.md",
     "ideavim",
@@ -176,23 +209,10 @@
     "java-spring/packages/mapstruct/Untitled.md",
     "java-spring/packages/mapstruct/issues",
     "java-spring/packages/mapstruct",
-    "java-spring/todo.md",
-    "java-spring/packages/data/annotation.md",
-    "java-spring/packages/data/domain.md",
-    "arch btw/shell/zsh.md",
-    "arch btw/shell/bin vs usr.bin.md",
     "arch btw/shell/Untitled",
-    "arch btw/shell/changing default shell.md",
-    "arch btw/shell/todo.md",
     "arch btw/shell",
-    "neovim/todo.md",
-    "innoqb-eroses/setup.md",
-    "neovim/dotfiles.md",
     "AjkBranchWriteDomainService.java",
     "AjkBranchMapper.java",
-    "WriteAjkBranchRequest.java",
-    "arch btw/install history.md",
-    "arch btw/install.md",
     "neovim/reddit/Untitled.canvas"
   ]
 }

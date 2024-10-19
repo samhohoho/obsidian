@@ -25,6 +25,7 @@ https://stackoverflow.com/questions/8456538/origin-null-is-not-allowed-by-access
             Optional<List<Branch>> branches = Optional.ofNullable(branchReadDomainService.getAllByParams(params));
 sql syntax backtick
 https://stackoverflow.com/questions/18433105/you-have-an-error-in-your-sql-syntax-check-the-manual-that-corresponds-to-your
+view YAS how they do paging
 
 
 CHECK

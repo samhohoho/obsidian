@@ -6,3 +6,5 @@
 ## Pacman
 ### [Tips and tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#)
 ## [Arch User Repository](https://wiki.archlinux.org/title/Arch_User_Repository#)
+
+![[Pasted image 20241019170814.png]]

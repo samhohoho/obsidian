@@ -9,6 +9,9 @@ https://wiki.archlinux.org/title/Pacman/Tips_and_tricks
 https://wiki.archlinux.org/title/Help:Reading#Installation_of_packages
 
 https://www.reddit.com/r/archlinux/comments/1827lhk/first_time_installing_arch_and_now_windows_is_not/
+https://www.reddit.com/r/thinkpad/comments/1fs2134/does_t14_gen_5_amd_air_vents_blow_hot_air_to/
+https://draculatheme.com/mysql-workbench
+
 
 benchmark test
 read archwiki post installation
