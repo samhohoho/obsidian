@@ -1,4 +1,4 @@
-hibernate vs myBatis
+!hibernate vs myBatis
 spring data jpa vs jpa
 
 interface vs abstract

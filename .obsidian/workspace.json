@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/todo.md",
+                "file": "java-spring/modulith  1.2.4/fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "fundamentals"
             }
           }
         ]
@@ -175,12 +175,16 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
+    "java-spring/modulith  1.2.4",
+    "java/optional vs null check.md",
+    "java-spring/modulith  1.2.4/fundamentals.md",
+    "java/todo.md",
+    "https.md",
     "innoqb-eroses/setup.md",
     "innoqb-eroses/todo.md",
     "arch btw/wiki/postgresql.md",
     "arch btw/wiki/sudo.md",
     "arch btw/wiki/systemd.md",
-    "https.md",
     "arch btw/manual.md",
     "arch btw/wiki",
     "arch btw/wiki.md",
@@ -193,7 +197,6 @@
     "java/collections.md",
     "Pasted image 20241019170731.png",
     "hyprland/todo.md",
-    "java/todo.md",
     "neovim/todo.md",
     "arch btw/maintainence",
     "ideavim/dotfiles.md",
@@ -204,9 +207,6 @@
     "git/branch/branch rename.md",
     "git/branch",
     "git/branch.md",
-    "git/todo.md",
-    "java-spring/packages/mapstruct/issues/empty mapped object.md",
-    "java-spring/packages/mapstruct/Untitled.md",
     "java-spring/packages/mapstruct/issues",
     "java-spring/packages/mapstruct",
     "arch btw/shell/Untitled",
