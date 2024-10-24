@@ -7,3 +7,6 @@ disable focus on-hover
 
 dotfiles
 https://github.com/mylinuxforwork/dotfiles/blob/main/share/dotfiles/.config/hypr/conf/keybindings/default.conf
+
+
+https://www.reddit.com/r/gnome/comments/11llvso/guide_theme_dolphin_qt_apps_on_gnome/
