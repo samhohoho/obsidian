@@ -1,6 +1,7 @@
 ---
 id: list-interface
-aliases: []
+aliases:
+  - List
 tags: []
 ---
 

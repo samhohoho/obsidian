@@ -1,3 +1,10 @@
+---
+id: set-interface
+aliases:
+  - Set
+tags: []
+---
+
 ```java
 Set<String> Set = new HashSet<String>();
 Set.add("one");
