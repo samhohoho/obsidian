@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "java/collections/set/hashSet.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -175,6 +175,11 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
+    "java/collections/list/list-interface.md~",
+    "java/collections/list/list-interface.md",
+    "java/collections/list",
+    "java/collections/set/set-interface.md",
+    "java/collections/set/hashSet.md~",
     "java/collections/set/set interface.md",
     "java/collections/set/hashSet.md",
     "java/collections/resources.md",
@@ -205,14 +210,9 @@
     "arch btw/pacman/best practise.md",
     "arch btw/todo.md",
     "Pasted image 20241019170731.png",
-    "neovim/todo.md",
     "arch btw/maintainence",
-    "ideavim/dotfiles.md",
-    "java/exception handling.md",
     "ideavim",
     "git/branch",
-    "java-spring/packages/mapstruct/issues",
-    "java-spring/packages/mapstruct",
     "neovim/reddit/Untitled.canvas"
   ]
 }

@@ -1,3 +1,9 @@
+---
+id: post-installation
+aliases: []
+tags: []
+---
+
 https://docs.docker.com/engine/install/linux-postinstall/
 
 Manage Docker as a non-root user

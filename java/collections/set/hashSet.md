@@ -3,6 +3,9 @@ id: hashSet
 aliases: []
 tags: []
 ---
+```java
+HashSet<T> set=new HashSet<T>(); 
+```
 
 ```java
 HashSet() // default HashSet
