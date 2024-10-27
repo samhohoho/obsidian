@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/synchronization.md",
-                "mode": "source",
+                "file": "docker/common.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "synchronization"
+              "title": "common"
             }
           }
         ]
@@ -175,6 +175,10 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
+    "docker/common.md~",
+    "java-spring/modulith  1.2.4/fundamentals.md",
+    "java-spring/modulith  1.2.4/fundamentals.md~",
+    "java/synchronization.md",
     "java/synchronization.md~",
     "java/collection/list/list-interface.md~",
     "java/collection/collection-interface.md~",
@@ -192,9 +196,7 @@
     "java/collection/set/set-interface.md",
     "java/collection/set/hashSet.md",
     "java/collection/list/arrayList.md",
-    "java/collection/set",
     "java/collection/resources.md",
-    "java/collection/map",
     "java/collection/array-and-list.md",
     "java/collectionn/set/set-interface.md",
     "java/collectionn/set/hashSet.md",
@@ -209,8 +211,6 @@
     "java/collections/map/map-interface.md",
     "java/collections/list/list-interface.md",
     "java/collections/array-and-list.md",
-    "java/collections/set/hashSet.md",
-    "java/collections/set/set-interface.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

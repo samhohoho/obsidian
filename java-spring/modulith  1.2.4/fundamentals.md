@@ -1,16 +1,23 @@
+---
+id: fundamentals
+aliases: []
+tags: []
+---
+
 ## Resources
 [Spring Modulith](https://docs.spring.io/spring-modulith/reference/index.html)
 https://github.com/spring-projects/spring-modulith/discussions/500
 
 https://www.reddit.com/r/SpringBoot/comments/1dpgskc/migrating_to_spring_modulith_is_advisible/
+
 ## Sample repo:
 [spring-modulith-with-ddd](https://github.com/xsreality/spring-modulith-with-ddd/tree/part-2-spring-modulith)
 [spring-modular-monolith](https://github.com/sivaprasadreddy/spring-modular-monolith)
 
 ## [Fundamentals](https://docs.spring.io/spring-modulith/reference/fundamentals.html)
-The application’s main package is the one that the main application class resides in. That is the class, that is annotated with `@SpringBootApplication`.
+The application’s **main package** is the one that the main application class resides in. That is the class, that is annotated with `@SpringBootApplication`.
 
-By default, each direct sub-package of the main package is considered an _application module package_.
+By default, each direct sub-package of the main package is considered an **application module package**.
 
 ## Advanced Application Modules
 ```
