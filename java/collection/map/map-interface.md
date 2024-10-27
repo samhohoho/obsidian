@@ -1,7 +1,9 @@
 ---
 id: map-interface
 aliases: []
-tags: []
+tags:
+  - java
+  - collections
 ---
 
 Basis of key and value pair.
