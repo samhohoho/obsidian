@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/basic/image.md",
+                "file": "docker/basic/docker-compose.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "image"
+              "title": "docker-compose"
             }
           }
         ]
@@ -175,12 +175,16 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
+    "docker/basic/docker-compose.md~",
+    "docker/basic/image.md",
+    "docker/basic/docker-compose.md",
+    "docker/basic/registry.md~",
+    "docker/basic/registry.md",
     "docker/basic/image.md~",
     "docker/basic/container.md",
     "docker/basic/container.md~",
     "docker/basic/1730123146-NBWZ.md",
     "docker/basic/1730123129-OXYB.md",
-    "docker/basic/image.md",
     "docker/common.md",
     "docker/introduction.md",
     "docker/basic/introduction.md",
@@ -193,9 +197,7 @@
     "docker/FAQs",
     "docker/common.md~",
     "java-spring/modulith  1.2.4/fundamentals.md",
-    "java-spring/modulith  1.2.4/fundamentals.md~",
     "java/synchronization.md",
-    "java/synchronization.md~",
     "java/collection/collection-interface.md",
     "java/interface/invocation.md",
     "java/collection/list/list-interface.md",
@@ -208,8 +210,6 @@
     "java/collection/array-and-list.md",
     "java/collectionn/set/set-interface.md",
     "java/collectionn/set/hashSet.md",
-    "java/collectionn/map/map-interface.md",
-    "java/collectionn/map/hashMap.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

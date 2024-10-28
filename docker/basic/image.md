@@ -28,6 +28,9 @@ List downloaded images
 ```bash
 docker image ls
 ```
+```bash
+docker images
+```
 
 List image's layers
 ```bash
