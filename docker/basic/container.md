@@ -12,6 +12,8 @@ https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-contain
 **Container image** is a single package that contains everything needed to run a process. Like, Node environment.
 
 **Containers** are isolated processes for each of the app's components (FE, BE, and DB). It runs in its own isolated environment, isolated from everything else on your machine.
+To ensure the version of Python (or Node or the db) is not affected by local machine.
+Basically an isolated filesystem. (created by `/bin/bash`)
 - Each container has everything it needs.
 - Minimal influence on the host, increasing security.
 - Independent.

@@ -7,7 +7,9 @@ tags: []
 https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
 
 **Container image** is a package that include all the files, binaries, libraries and configurations to run a [[container]].
+
 For a PostgreSQL image, it will package the database binaries, config files, and other dependencies.
+Just like how PostgreSQL is being installed on local machine. It comes with all the dependencies.
 - Images are immutable.
 - Images are composed of layers. A filesystem changes that provide image functionality.
 
