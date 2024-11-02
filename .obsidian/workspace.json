@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/basic/container.md",
+                "file": "java/oop/polymorphism.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "container"
+              "title": "polymorphism"
             }
           }
         ]
@@ -175,6 +175,18 @@
   },
   "active": "5c58dc92323fc4eb",
   "lastOpenFiles": [
+    "java/abstract.md~",
+    "java/abstract.md",
+    "java/interfaces.md~",
+    "java/interfaces.md",
+    "java/oop/inheritance.md~",
+    "java/oop/polymorphism.md~",
+    "java/oop/inheritance.md",
+    "java/oop/polymorphism.md",
+    "docker/basic/container.md",
+    "docker/basic/image.md~",
+    "docker/dockerfile/overview.md~",
+    "docker/dockerfile/overview.md",
     "docker/dockerfile/writing-a-dockerfile.md",
     "docker/dockerfile",
     "docker/writing-a-dockerfile.md",
@@ -185,32 +197,20 @@
     "docker/basic/image.md",
     "docker/basic/registry.md~",
     "docker/basic/registry.md",
-    "docker/basic/image.md~",
-    "docker/basic/container.md",
     "docker/basic/container.md~",
     "docker/basic/1730123146-NBWZ.md",
     "docker/basic/1730123129-OXYB.md",
     "docker/common.md",
     "docker/introduction.md",
     "docker/basic/introduction.md",
-    "docker/basic",
-    "docker/introduction.md~",
-    "software-development/resources.md~",
     "software-development/resources.md",
     "docker/FAQs.md",
-    "docker/FAQs.md~",
     "java-spring/modulith  1.2.4/fundamentals.md",
     "java/synchronization.md",
     "java/collection/collection-interface.md",
     "java/interface/invocation.md",
     "java/collection/list/list-interface.md",
     "java/collection/map/hashMap.md",
-    "java/collection/map/map-interface.md",
-    "java/collection/set/set-interface.md",
-    "java/collection/set/hashSet.md",
-    "java/collection/list/arrayList.md",
-    "java/collection/resources.md",
-    "java/collection/array-and-list.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

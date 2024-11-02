@@ -5,6 +5,7 @@ tags: []
 ---
 
 https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
+https://docs.docker.com/build/concepts/dockerfile/#docker-images
 
 **Container image** is a package that include all the files, binaries, libraries and configurations to run a [[container]].
 
