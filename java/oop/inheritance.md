@@ -30,3 +30,5 @@ The four access levels: `private`, `default`, `protected`, `public`
 # Rules for overriding
 - Arguments must be the same, and return types must be compatible.
 - The method cant be less accessible.
+
+**Multiple inheritance, aka Deadly Diamond if Death, can be a really bad thing.**

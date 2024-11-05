@@ -35,3 +35,18 @@ list.add(dog);
 Dog d = list.get(0); // wont work
 ```
 The compiler knows only that the object inherits from Object but it doesnt know its a Dog.
+```java
+Object o = al.get(index);
+/**
+* This is fine.
+* Class Object has a hashCode() method.
+*/
+int i = o.hashCode();
+
+/**
+* Wont work.
+* Becuz the compiler doesnt know its a Dog at that index.
+*/
+o.bark();
+```
+**The compiler decides whether you can call a method based on the reference type, not the actual object type.**
