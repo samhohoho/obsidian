@@ -25,12 +25,14 @@
             "id": "da5673652517b3d3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.5"
+                "file": "java/oop/polymorphism.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "title": "polymorphism"
             }
           }
         ],
@@ -188,6 +190,9 @@
   },
   "active": "da5673652517b3d3",
   "lastOpenFiles": [
+    "java/collection/generics.md~",
+    "java/collection/generics.md",
+    "java/collection/set/treeSet.md",
     "java/interface-and-abstract/when-to-use.md~",
     "java/interface-and-abstract/when-to-use.md",
     "java/interface-and-abstract/interface.md",
@@ -210,7 +215,6 @@
     "java/oop/inheritance.md",
     "java/interfaces.md~",
     "java/interfaces.md",
-    "java/oop/inheritance.md~",
     "docker/basic/container.md",
     "docker/dockerfile/overview.md",
     "docker/dockerfile/writing-a-dockerfile.md",
@@ -222,8 +226,6 @@
     "docker/basic/1730123146-NBWZ.md",
     "docker/basic/1730123129-OXYB.md",
     "docker/common.md",
-    "docker/introduction.md",
-    "docker/basic/introduction.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

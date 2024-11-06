@@ -15,3 +15,9 @@ Insertion order.
 Non-synchronized.
 Index basis.
 Store only the wrapper class, not primitive types.
+
+```java
+public class ArrayList<E> extends AbstractList<E> implements List<E>
+```
+
+The `E` is a placeholder for the REAL type.
