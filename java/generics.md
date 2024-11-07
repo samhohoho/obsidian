@@ -42,7 +42,29 @@ The first one, you could invoke using an `ArrayList<Dog>`,
 `ArrayList<Cat>`, or `ArrayList<Animal>`.
 But, the bottom one means that only an `ArrayList<Animal>`
 is legal.
-
+## What could happen if it were allowed...
+If you passed a Dog ArrayList to the 2nd method, then suddenly you add a Cat in the Dog list. The compiler knows that if it lets you pass a Dog ArrayList into the method like that, someone could, at runtime, add a Cat to your Dog list.
+So intead, the compiler just wont let you take the risk.
+## Array types are checked again at runtime, but collection type checks happen only when you compile
+```java
+public void go() {
+    Dog[] dogs = {new Dog(), new Dog()};
+    takeAnimals(dogs);
+}
+public void takeAnimals(Animal[] animals) {
+    animals[0] = new Cat(); // ArrayStoreException
+}
+```
+## Wildcards to the rescue
+There is a way to create a method argument that can accept an ArrayList of any Animal subtype.
+```java
+public void takeAnimals(ArrayList<? extends Animal> animals) {
+    for(Animal a: animals) {
+        a.eat();
+    }
+}
+```
+The keyword `extends` means either extends or implements.
 # In generics, "extends" means "extends or implements"
 The keyword "extends" really means "IS-A", and works for both calsses and interfaces.
 ```java
