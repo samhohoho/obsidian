@@ -6,6 +6,9 @@ tags:
   - collections
 ---
 
+Map interface doesnt actually extend the Collection interface,
+but Map is still considered part of the Collection Framework (Collection API).
+
 Basis of key and value pair.
 Unique keys.
 Classes: [[hashMap|HashMap]], LinkedHashMap, TreeMap.
