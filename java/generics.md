@@ -65,6 +65,35 @@ public void takeAnimals(ArrayList<? extends Animal> animals) {
 }
 ```
 The keyword `extends` means either extends or implements.
+
+When you use the wildcard `<?>` in your declaration, the compiler wont let you add new things to the list.
+So you are safe at runtime.
+
+This is OK:
+```java
+for(Animal a: animals) {
+    a.eat();
+}
+```
+But this would not compile:
+```java
+animals.add(new Cat());
+```
+### Alternate syntax
+This:
+```java
+public <T extends Animal> void takeThing(ArrayList<T> list)
+```
+Does the same as this:
+```java
+public void takeThing(ArrayList<? extends Animal> list)
+```
+**Q: Why would you use one over the other?**
+Depends on where you want to use `T`.
+If you want the method to have two arguments--both of which are lists of a type that extend `Animal`, its more efficient to declare the type parameter once.
+```java
+public <T extends Animal> void takeThing(ArrayList<T> one, ArrayList<T> two)
+```
 # In generics, "extends" means "extends or implements"
 The keyword "extends" really means "IS-A", and works for both calsses and interfaces.
 ```java

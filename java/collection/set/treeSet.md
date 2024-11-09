@@ -7,7 +7,11 @@ tags: []
 Inherits `AbstractSet` class and implement [[Set]] interface.
 Keeps the elements sorted and prevent duplicates.
 
+If you put all the Strings into a TreeSet, the Strings would automatically land in the right place.
+
 The downside to TreeSet is that if you dont need sorting, you are still paying for it with a small performance hit.
+
+Everytime you insert into a TreeSet, it has to take the time to figure out where in the tree the element must go.
 
 # Calling the no-arg TreeSet.
 ```java
