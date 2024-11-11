@@ -126,4 +126,79 @@ You cant control the scheduler.
 There are no guarantees about scheduling.
 The scheduler implementations are different for different JVM's.
 
-The secret to 
+The secret to almost everything is *sleep*.
+Putting a thread to sleep, forces the currently-running thread to leave the running state,
+giving another thread a chance to run.
+
+# Putting a thread to sleep
+```java
+Thread.sleep(2000);
+```
+Calling sleep will force the new thread to leave the currently-running state.
+The thread cant become the running thread again until after at least 2 seconds have passed.
+The sleep method throws an InterruptedException.
+```java
+try {
+    Thread.sleep(2000);
+} catch (InterruptedException ex) {
+    ex.printStackTrace();
+}
+```
+When the thread wakes up, it always goes back to the runnable state.
+
+# Using sleep to make our program more predictable
+Sometims main had to wait until the new thread finished.
+
+# Making and starting two threads
+Threads have names. You can give your threads a name or accept there default names.
+By setting the name, you can tell which thread is running.
+```java
+public class RunThreads implements Runnable {
+    public static void main(String[] args) {
+        RunThreads runner = new RunThreads(); // Make one Runnable instance
+        Thread alpha = new Thread(runner);
+        Thread beta = new Thread(runner);
+        alpha.setName("Alpha thread");
+        beta.setName("Beta thread");
+        alpha.start();
+        beta.start();
+    }
+    public void run() {
+        for (int i = 0; i < 25; i++) {
+            String threadName = Thread.currectThread().getName();
+            System.out.println(threadName + " is running");
+        }
+    }
+}
+```
+
+# Threads can lead to concurrency issues
+It all comes down to one potentially deadly scenario:
+two or more threads have access to a single object's data.
+In other words, methods excuting on two different stacks are both calling, getters or setters on a single object on the heap.
+
+# We need the makeWithdrawal() method to run as one atomic thing.
+We need to make sure that once a thread enters the makeWithdrawal() method, it must be allowed to finish the method before any other thread can enter.
+
+Use the `synchronized` to modify a method so that only one thread at a time can access it.
+
+You dont put a lock on the bank account itself; you lock the method that does the banking transaction, start to finish, even if that thread falls asleep in the middle of the method.
+```java
+private synchronized void makeWithdrawal(int amount) {
+    if (account.getBalance() >= amount) {
+        try {
+            Thread.sleep(500);
+        } catch(InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        account.withdraw(amount);
+    } else {}
+}
+```
+
+# Using an object's lock
+
+# FAQ
+**Can you reuse a Thread object? Can you give it a new job to do and restart it?**
+No. Once a thread's run() has completed, it moves into a **dead** state.
+But, there are design patterns for making a pool of threads that you can keep using to perform different task.
