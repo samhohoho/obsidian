@@ -226,7 +226,27 @@ public synchronized void increment() {
 }
 ```
 
+# The deadly side of synchronization
+Thread deadlock happens two threads are holding a key the other thread wants.
+There is no way out of this scenario, so the two threads will sit and wait and wait ...
+
+Databases often have a locking mechanism somewhat like synchronization.
+But a real transaction management system can sometimes deal with deadlock.
+For example, that deadlock might have occurred when two transactions are taking too long to complete.
+But unlike Java, the application server can do a "transaction rollback" that returns the state to where it was before.
+
 # FAQ
 **Can you reuse a Thread object? Can you give it a new job to do and restart it?**
 No. Once a thread's run() has completed, it moves into a **dead** state.
 But, there are design patterns for making a pool of threads that you can keep using to perform different task.
+
+**Sounds like a good idea to synchronize everything, just to be thread-safe**
+Nope. A synchronized method has a certain amount of overhead.
+When code hits a synchronized method, there will be a performance hit while the matter of "is the key available?" is resolved.
+
+Second, synchronization restricts concurrency.
+A synchronized method forces other threads to get in line and wait their turn,
+
+Third, deadlock.
+
+A good rule of thumb is to synchronize only the bare minimum.

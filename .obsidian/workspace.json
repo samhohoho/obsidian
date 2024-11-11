@@ -190,6 +190,8 @@
   },
   "active": "da5673652517b3d3",
   "lastOpenFiles": [
+    "java/resources.md~",
+    "java/resources.md",
     "java/networking/multithreading.md~",
     "java/networking/port.md",
     "java/networking/socket-connection.md",
@@ -224,7 +226,6 @@
     "java/resources/head-first-java/collections/tree-set.md",
     "java/resources/head-first-java/collections/array-list/tree-set.md",
     "java/resources/head-first-java/colletions.md",
-    "java/resources/head-first-java.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
