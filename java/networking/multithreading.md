@@ -180,7 +180,7 @@ In other words, methods excuting on two different stacks are both calling, gette
 # We need the makeWithdrawal() method to run as one atomic thing.
 We need to make sure that once a thread enters the makeWithdrawal() method, it must be allowed to finish the method before any other thread can enter.
 
-Use the `synchronized` to modify a method so that only one thread at a time can access it.
+**Use the `synchronized` to modify a method so that only one thread at a time can access it.**
 
 You dont put a lock on the bank account itself; you lock the method that does the banking transaction, start to finish, even if that thread falls asleep in the middle of the method.
 ```java
@@ -197,6 +197,34 @@ private synchronized void makeWithdrawal(int amount) {
 ```
 
 # Using an object's lock
+**Every object has a lock.** Object locks come into play only when there are synchronized methods.
+When an object has one or more synchronized methods, a thread can enter a synchronized method **only if the thread can get the key to the object's lock**.
+
+The locks are per object, not method.
+If an object has two synchronized methods, it means you cant have two threads entering any of the synchronized methods.
+
+Think about it. If you have multiple methods that can act on an object's instance variables, all those methods need to be protected with synchronized.
+
+Remember, you dont lock the data itself, you synchronize the methods that access that data.
+
+## When a thread hits a synchronized method
+What happens when a thread is cranking through its call stack (starting with the run() method) and suddenly hits a synchronized method? The thread recognizes that it needs a key for that object before it can enter the method.
+
+While that thread is holding the key, no other threads can enter any of that object's synchronized methods.
+Because the one key for that object wont be available.
+
+# The dreaded "Lost Update" problem
+Each thread runs 50 times, incrementing the balance on each iteration.
+Thread A updated it to 5, but now B came back and stepped on top of the update A made.
+
+# Make the increment() method atomic. Synchronize it.
+Synchronizing the method solves the "Lost Update" problem, because it keeps the two steps as on unbreakable unit.
+```java
+public synchronized void increment() {
+    int i = balance;
+    balance = i + 1;
+}
+```
 
 # FAQ
 **Can you reuse a Thread object? Can you give it a new job to do and restart it?**
