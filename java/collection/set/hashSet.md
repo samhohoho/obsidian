@@ -27,5 +27,4 @@ It uses the object's hashcode value to determine where to put the object in the 
 But also compares the object's hashcode to the hashcode of all the other objects in the HashSet.
 
 **Your hashcodes are the same, but are you REALLY equal?**
-
 HashSet finds a matching hashcode, it will then call one of the object's `equals()` methods to see if are equal.
