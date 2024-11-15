@@ -19,6 +19,20 @@ In container, bean definitions are represented as `BaseDefinition` objects, whic
 - References to other beans, aka **dependencies**.
 - Other configuration settings to set in new object (size limit of the pool, or number of connection to use in a bean that manages a connection pool).
 
+# Lazy Initialization
+By default, when application starts, all beans are initialized (@Component, etc...).
+Spring will create an instance of each and make them available.
+
+Initialize the bean only when it is explicitly requested.
+```jav
+@Component
+@Lazy
+public class TrackCoach implements Coach {
+    ...
+}
+```
+
+
 # FAQ
 ## `@Bean` vs `@Component`
 You can use @Bean to make an existing third-party class available to you Spring framework application context.
