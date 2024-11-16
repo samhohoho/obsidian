@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java-spring/core/dependency-injection.md",
+                "file": "java-spring/core/bean.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dependency-injection"
+              "title": "bean"
             }
           }
         ],
@@ -204,13 +204,13 @@
   },
   "active": "01f893695378fa04",
   "lastOpenFiles": [
-    "java-spring/core/autowiring.md",
-    "java-spring/core/bean.md",
+    "java-spring/core/bean.md~",
     "java-spring/core/dependency-injection.md",
+    "java-spring/core/bean.md",
+    "java-spring/core/ioc.md",
+    "java-spring/core/autowiring.md",
     "java-spring/annotation/Qualifier.md",
     "java-spring/core/dependency-injection.md~",
-    "java-spring/core/bean.md~",
-    "java-spring/core/ioc.md",
     "java-spring/core/autowiring.md~",
     "java-spring/core/ioc.md~",
     "my-proj/docker.md",
@@ -239,7 +239,6 @@
     "java/resources/head-first-java/collections/without-sort.md",
     "java/resources/head-first-java/collections/sort.md",
     "java/resources/head-first-java/collections/basic.md",
-    "java/resources/head-first-java/collections/custom-comparator.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
