@@ -104,6 +104,40 @@ Additional bean scopes:
 6. Thread pool workers.
     - ensure worker threads dont interfere.
 
+# Bean lifecycle methods / hooks
+- You can add custom code during **bean initialization**.
+    - Calling custom business logic methods.
+    - Setting up handles (db, sockets, file etc).
+- Add custom code during **bean destruction**.
+
+For instance, it can be used to load some initial data into the db when the app starts.
+This is typically used for unit/integration testing.
+However, this is not the standard practice on large scale enterprise apps.
+```java
+@Component
+public class TrackCoach implements Coach {
+    @PostConstruct
+    public void doMyStartupStuff() {...}
+
+    @PreDestroy
+    public void doMyCleanupStuff() {...}
+}
+```
+## Prototype scope - destroy lifecycle method
+**Spring does not call the destroy method.**
+**Spring does not manage the complete lifecycle of a prototype bean.**
+
+The container instantiates, configures, assembles a prototype object, and hands it to the client.
+
+## FAQ
+### Why not calling the methods in the constructor?
+1. Dependency injection readiness
+    - Calling initialization methods directly from constructor risk accessing uninitialized dependencies.
+    - @PostConstruct ensures that dependencies are fully initialized before the initialization method is invoked.
+2. Avoid circular dependency issues:
+    - It happens when initialization method call methods on other beans that depend on the current bean.
+    - @PostConstruct ensures that all dependencies are resolved before initialization.
+
 # FAQ
 ## `@Bean` vs `@Component`
 You can use @Bean to make an existing third-party class available to you Spring framework application context.
@@ -124,6 +158,35 @@ public class ServiceImpl implements Service {
     private S3Client remoteClient;
 }
 ```
+## `@Configuration` vs `@Component`
+`@Component` is used to indicate a class is a Spring component.
+A class that doesnt fit into specific categories like controllers, services, or repositories.
+When annotated, Spring automatically detects and registers it as a bean in the application context during component scanning.
+```java
+@Component
+public class MyComponent {
+    // ...
+}
+```
+`@Configuration` is used to define Java-based configuration classes.
+To define beans and configure the Spring application context.
+Useful when you need to configure complex beans or external dependencies.
+```java
+@Configuration
+public class MyConfiguration {
+    @Bean
+    public MyBean myBean() {
+        return new MyBean();
+    }
+}
+```
+## Why the AWS S3 client was not annotated with @Component?
+When we are defining configuration beans in our class that is annotated with `@Configuration`,
+we always use `@Bean` for methods in that class.
+That way each method (S3Client) is an individual bean.
+
+`@Component` is reserved for an entire class.
+
 ## What are the essential beans that are typically initialized at the launch?
 These beans are essential for application's core functionality, configuration, or infra setup.
 - DataSource.

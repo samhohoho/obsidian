@@ -6,6 +6,7 @@
       {
         "id": "0c88fc74bd98b38d",
         "type": "tabs",
+        "dimension": 66.53796653796654,
         "children": [
           {
             "id": "5c58dc92323fc4eb",
@@ -41,16 +42,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java-spring/core/bean.md",
+                "file": "sql/joins.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bean"
-            }
+              "title": "joins"
+            },
+            "group": "bbc2888bec4fac22"
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "4de4154ff7d10f2c",
+        "type": "tabs",
+        "dimension": 33.46203346203346,
+        "children": [
+          {
+            "id": "00b267867b4953ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sql/joins.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of joins"
+            },
+            "group": "bbc2888bec4fac22"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,9 +227,24 @@
   },
   "active": "01f893695378fa04",
   "lastOpenFiles": [
-    "java-spring/core/bean.md~",
-    "java-spring/core/dependency-injection.md",
+    "sql/joins.md~",
+    "sql/filtering-sorting.md",
+    "sql/joins.md",
+    "sql/constraints.md",
+    "sql/filtering-sorting.md~",
+    "sql/constraints.md~",
+    "java/jdk/switch version.md",
+    "sql/conditions.md",
+    "sql/conditions.md~",
+    "java/maven/install.md",
+    "java/maven/setup multi-module.md",
+    "java/sdkman/install.md",
     "java-spring/core/bean.md",
+    "java-spring/annotation/Bean.md",
+    "java-spring/annotation/Bean.md~",
+    "java-spring/core/dependency-injection.md",
+    "java-spring/annotation/Bean",
+    "java-spring/core/bean.md~",
     "java-spring/core/ioc.md",
     "java-spring/core/autowiring.md",
     "java-spring/annotation/Qualifier.md",
@@ -214,31 +252,16 @@
     "java-spring/core/autowiring.md~",
     "java-spring/core/ioc.md~",
     "my-proj/docker.md",
-    "bash/todo.md~",
     "bash/todo.md",
-    "bash",
     "java/casting-object.md",
-    "my-proj",
     "java/networking/multithreading.md",
-    "java/resources.md~",
     "java/resources.md",
-    "java/networking/multithreading.md~",
     "java/networking/port.md",
     "java/networking/socket-connection.md",
     "java/networking/simple-server.md",
-    "java/networking/simple-server.md~",
     "java/example/sorting/collection-sort.md",
     "java/networking.md",
     "java/generics.md",
-    "java/example/sorting.md",
-    "java/resources/head-first-java/collections/sort-by-artist.md",
-    "java/resources/head-first-java/collections/array-list/array-list.md",
-    "java/resources/head-first-java/collections/comparable-class.md",
-    "java/collection/set/treeSet.md",
-    "java/resources/head-first-java/collections/[start]without-sort.md",
-    "java/resources/head-first-java/collections/without-sort.md",
-    "java/resources/head-first-java/collections/sort.md",
-    "java/resources/head-first-java/collections/basic.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

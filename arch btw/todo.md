@@ -1,3 +1,9 @@
+---
+id: todo
+aliases: []
+tags: []
+---
+
 https://wiki.archlinux.org/title/System_maintenance#
 https://wiki.archlinux.org/title/General_recommendations
 https://wiki.archlinux.org/title/Frequently_asked_questions
@@ -43,3 +49,6 @@ https://github.com/mylinuxforwork/dotfiles
 forum
 https://bbs.archlinux.org/viewtopic.php?id=300126
 https://bbs.archlinux.org/viewtopic.php?id=300166
+
+java
+https://wiki.archlinux.org/title/Java#List_compatible_Java_environments_installed
