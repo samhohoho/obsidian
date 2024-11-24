@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql/joins.md",
+                "file": "java-spring/jpa/jpa.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "joins"
+              "title": "jpa"
             },
             "group": "bbc2888bec4fac22"
           }
@@ -65,10 +65,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sql/joins.md"
+                "file": "java-spring/jpa/jpa.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of joins"
+              "title": "Outline of jpa"
             },
             "group": "bbc2888bec4fac22"
           }
@@ -227,9 +227,13 @@
   },
   "active": "01f893695378fa04",
   "lastOpenFiles": [
+    "java-spring/jpa/jpa.md~",
+    "java-spring/jpa/annotation/entity.md~",
+    "java-spring/jpa/annotation/entity.md",
+    "java-spring/jpa/annotation",
+    "sql/joins.md",
     "sql/joins.md~",
     "sql/filtering-sorting.md",
-    "sql/joins.md",
     "sql/constraints.md",
     "sql/filtering-sorting.md~",
     "sql/constraints.md~",
@@ -249,8 +253,6 @@
     "java-spring/core/autowiring.md",
     "java-spring/annotation/Qualifier.md",
     "java-spring/core/dependency-injection.md~",
-    "java-spring/core/autowiring.md~",
-    "java-spring/core/ioc.md~",
     "my-proj/docker.md",
     "bash/todo.md",
     "java/casting-object.md",
@@ -261,7 +263,6 @@
     "java/networking/simple-server.md",
     "java/example/sorting/collection-sort.md",
     "java/networking.md",
-    "java/generics.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
