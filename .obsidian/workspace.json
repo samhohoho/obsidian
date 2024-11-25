@@ -9,50 +9,20 @@
         "dimension": 66.53796653796654,
         "children": [
           {
-            "id": "5c58dc92323fc4eb",
+            "id": "44a48fbaf5366d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/casting-object.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "casting-object"
-            }
-          },
-          {
-            "id": "da5673652517b3d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my-proj/docker.md",
+                "file": "java-spring/interface/CommandLineRunner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "CommandLineRunner"
             }
-          },
-          {
-            "id": "01f893695378fa04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "java-spring/jpa/jpa.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "jpa"
-            },
-            "group": "bbc2888bec4fac22"
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "4de4154ff7d10f2c",
@@ -65,12 +35,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-spring/jpa/jpa.md"
+                "file": "java-spring/interface/CommandLineRunner.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of jpa"
-            },
-            "group": "bbc2888bec4fac22"
+              "title": "Outline of CommandLineRunner"
+            }
           }
         ]
       }
@@ -225,44 +194,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01f893695378fa04",
+  "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java-spring/hibernate/hibernate.md",
+    "java-spring/interface/CommandLineRunner.md",
+    "java-spring/annotation/SpringBootApplication.md",
+    "java-spring/interface/CommandLineRunner.md~",
+    "java-spring/interface",
+    "java-spring/annotation/Repository.md",
+    "java-spring/annotation/SpringBootApplication.md~",
+    "java-spring/code-examples/jpa.md~",
+    "java-spring/annotation/Repository.md~",
+    "java-spring/code-examples/jpa.md",
+    "java-spring/core/dependency-injection/faq.md",
+    "java-spring/annotation/Transactional.md~",
+    "java-spring/code-examples",
+    "java-spring/code-examples.md",
+    "java-spring/annotation/Entity.md~",
+    "java-spring/annotation/Entity.md",
+    "java-spring/annotation/entity.md",
     "java-spring/jpa/jpa.md~",
-    "java-spring/jpa/annotation/entity.md~",
+    "java-spring/annotation/Transactional.md",
+    "java-spring/annotation/Transactional~",
+    "java-spring/jpa/jpa.md",
+    "java-spring/jpa/faq.md",
     "java-spring/jpa/annotation/entity.md",
-    "java-spring/jpa/annotation",
+    "java-spring/core/dependency-injection/dependency-injection.md",
+    "java-spring/core/bean/bean.md",
+    "java-spring/annotation/Bean.md",
     "sql/joins.md",
-    "sql/joins.md~",
     "sql/filtering-sorting.md",
     "sql/constraints.md",
-    "sql/filtering-sorting.md~",
-    "sql/constraints.md~",
     "java/jdk/switch version.md",
     "sql/conditions.md",
-    "sql/conditions.md~",
     "java/maven/install.md",
     "java/maven/setup multi-module.md",
     "java/sdkman/install.md",
     "java-spring/core/bean.md",
-    "java-spring/annotation/Bean.md",
-    "java-spring/annotation/Bean.md~",
     "java-spring/core/dependency-injection.md",
-    "java-spring/annotation/Bean",
-    "java-spring/core/bean.md~",
-    "java-spring/core/ioc.md",
-    "java-spring/core/autowiring.md",
-    "java-spring/annotation/Qualifier.md",
-    "java-spring/core/dependency-injection.md~",
-    "my-proj/docker.md",
-    "bash/todo.md",
-    "java/casting-object.md",
-    "java/networking/multithreading.md",
-    "java/resources.md",
-    "java/networking/port.md",
-    "java/networking/socket-connection.md",
-    "java/networking/simple-server.md",
-    "java/example/sorting/collection-sort.md",
-    "java/networking.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

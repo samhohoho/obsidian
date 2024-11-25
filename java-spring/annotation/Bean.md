@@ -18,3 +18,8 @@ public class SportConfig {
     }
 }
 ```
+
+# FAQ
+- **`@Autowired` and `@Bean`**
+    - Using `@Bean`, Spring automatically resolves the method paramaters by injecting the proper beans.
+    - The absence of `@Autowired` is valid.

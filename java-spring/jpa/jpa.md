@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-[[hibernate]]
+[[hibernate]], [[Transactional|@Transactional]]
 
 # Links
 [JPA/Hibernate Persistence Context](https://www.baeldung.com/jpa-hibernate-persistence-context)
@@ -20,7 +20,7 @@ Oject-to-relational mapping,
 mapping a Java class to a database table.
 
 # `EntityManager` is a JPA helper object.
-- **EntityManager is the interface that let us interact with the persistent context.**
+- **EntityManager is the interface provided by JPA.**
     - Whenever we use the EntityManager, we are actually interacting with the **persistent context**.
 - **EntityManager as the entry point to persistent context.**
     - It allows to perform various operations and manages the entities lifecycle.
