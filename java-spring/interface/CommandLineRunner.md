@@ -10,7 +10,7 @@ tags: []
     - Commonly used to execute code at the application startup.
 - Purpose
     - Useful for initialization tasks.
-        - Like loading initial data, setup scripts
+    - Like loading initial data, setup scripts
 - Execution timing.
     - `run()` is executed after all beans are created and dependencies are injected.
 - Parameters.

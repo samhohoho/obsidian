@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java-spring/interface/CommandLineRunner.md",
-                "mode": "source",
+                "file": "java/interface-and-abstract/interface.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CommandLineRunner"
+              "title": "interface"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-spring/interface/CommandLineRunner.md"
+                "file": "java/interface-and-abstract/interface.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of CommandLineRunner"
+              "title": "Outline of interface"
             }
           }
         ]
@@ -196,8 +196,14 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
-    "java-spring/hibernate/hibernate.md",
+    "java/lambda-expression.md~",
+    "java/interface-and-abstract/interface.md~",
+    "java/lambda-expression.md",
+    "java/interface-and-abstract/interface.md",
+    "java/interface/invocation.md",
+    "leetcode/complexity.md",
     "java-spring/interface/CommandLineRunner.md",
+    "java-spring/hibernate/hibernate.md",
     "java-spring/annotation/SpringBootApplication.md",
     "java-spring/interface/CommandLineRunner.md~",
     "java-spring/interface",
@@ -215,7 +221,6 @@
     "java-spring/annotation/entity.md",
     "java-spring/jpa/jpa.md~",
     "java-spring/annotation/Transactional.md",
-    "java-spring/annotation/Transactional~",
     "java-spring/jpa/jpa.md",
     "java-spring/jpa/faq.md",
     "java-spring/jpa/annotation/entity.md",
@@ -227,11 +232,6 @@
     "sql/constraints.md",
     "java/jdk/switch version.md",
     "sql/conditions.md",
-    "java/maven/install.md",
-    "java/maven/setup multi-module.md",
-    "java/sdkman/install.md",
-    "java-spring/core/bean.md",
-    "java-spring/core/dependency-injection.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

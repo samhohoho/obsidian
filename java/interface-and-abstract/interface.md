@@ -3,6 +3,24 @@ id: interface
 aliases: []
 tags: []
 ---
+https://dev.java/learn/lambdas/first-lambdas/
+
+- Concrete methods.
+    - Starting with Java SE 8, conrete methods are allowed.
+    - They can be instance methods or static methods
+    - They are called **default methods**.
+
+## Functional interface
+- They have only one **abstract** method.
+    - Concrete method does not count,
+```java
+public interface Runnable {
+    public abstract void run();
+}
+```
+The `Runnable` interface is indeed functional, because it has one abstract method.
+
+## Multiple inheritance
 
 A Java interface solves your multiple inheritance problem.
 The solution is to make all the methods abstract.
