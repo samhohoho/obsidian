@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-[[hibernate]], [[Transactional|@Transactional]]
+[[hibernate]], [[Transactional|@Transactional]], [[jpa-example]]
 
 # Links
 [JPA/Hibernate Persistence Context](https://www.baeldung.com/jpa-hibernate-persistence-context)
@@ -32,6 +32,8 @@ mapping a Java class to a database table.
 - **Data source configuration.**
     - JPA EntityManager and Data Source are automatically created by Spring Boot,
     based on the file: `application.properties`.
+- **Multiple EntityManager.**
+    - When you have connections to different databases.
 
 ## Persistent context as a cache
 - **Persistent context as a cache.**

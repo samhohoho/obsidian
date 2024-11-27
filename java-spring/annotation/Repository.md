@@ -8,6 +8,6 @@ tags: []
 
 - Spring provides `@Repository`.
 - Applied to DAO implementations.
-    - Spring will register the DAO implementation.
-    - thanks to component-scanning.
+- Features:
+    - Spring will register the DAO implementation, thanks to component-scanning.
     - Spring provides translation of JDBC related exceptions.

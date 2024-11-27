@@ -9,6 +9,10 @@ https://dev.java/learn/lambdas/first-lambdas/
     - Starting with Java SE 8, conrete methods are allowed.
     - They can be instance methods or static methods
     - They are called **default methods**.
+- Using interface as argument instead of implementation class.
+    - Promotes loose coupling and enhances flexibility in the code.
+    - Decouple the code from a specific implementation.
+        - Making it easier to switch implementations. Without affecting the calling code.
 
 ## Functional interface
 - They have only one **abstract** method.
