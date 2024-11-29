@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java-spring/code-examples/jpa-example.md",
+                "file": "java-spring/jpa/jpa.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jpa-example"
+              "title": "jpa"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-spring/code-examples/jpa-example.md"
+                "file": "java-spring/jpa/jpa.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of jpa-example"
+              "title": "Outline of jpa"
             }
           }
         ]
@@ -196,6 +196,13 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java-spring/jpa/4913",
+    "java-spring/jpa/jpa.md~",
+    "java-spring/jpa/jpql.md",
+    "java-spring/code-examples/jpql-example.md~",
+    "java-spring/code-examples/jpql-example.md",
+    "java-spring/jpa/jpql.md~",
+    "java-spring/code-examples/jpa-example.md",
     "java-spring/code-examples/jpa-example.md~",
     "java/interface-and-abstract/interface.md",
     "java/lambda-expression.md~",
@@ -211,13 +218,9 @@
     "java-spring/annotation/Repository.md",
     "java-spring/annotation/SpringBootApplication.md~",
     "java-spring/code-examples/jpa.md~",
-    "java-spring/annotation/Repository.md~",
     "java-spring/code-examples/jpa.md",
     "java-spring/core/dependency-injection/faq.md",
-    "java-spring/annotation/Transactional.md~",
-    "java-spring/code-examples",
     "java-spring/code-examples.md",
-    "java-spring/annotation/Entity.md~",
     "java-spring/annotation/Entity.md",
     "java-spring/annotation/entity.md",
     "java-spring/annotation/Transactional.md",
@@ -229,9 +232,6 @@
     "java-spring/annotation/Bean.md",
     "sql/joins.md",
     "sql/filtering-sorting.md",
-    "sql/constraints.md",
-    "java/jdk/switch version.md",
-    "sql/conditions.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

@@ -20,21 +20,21 @@ Oject-to-relational mapping,
 mapping a Java class to a database table.
 
 # `EntityManager` is a JPA helper object.
-- **EntityManager is the interface provided by JPA.**
+- **What?**
+    - EntityManager is the interface provided by JPA.
     - Whenever we use the EntityManager, we are actually interacting with the **persistent context**.
-- **EntityManager as the entry point to persistent context.**
+- **Features.**
+    - EntityManager as the entry point to persistent context.
     - It allows to perform various operations and manages the entities lifecycle.
     - Including persisting, merging, removing, and querying them.
 - **Automatic establishment of persistence context.**
     - When creating EntityManager, it automatically creates a persistent context associated with the current transaction, especially using transaction-scoped context (default).
     - Any operations performed within the scope of this transaction will be managed by the associated persistent context.
-- It is from JPA.
 - **Data source configuration.**
     - JPA EntityManager and Data Source are automatically created by Spring Boot,
     based on the file: `application.properties`.
-- **Multiple EntityManager.**
+- **When do we need multiple EntityManager.**
     - When you have connections to different databases.
-
 ## Persistent context as a cache
 - **Persistent context as a cache.**
     - Acts as a **first-level cache** for entities, storing the state of entities that have been read from or written to the db within the current transaction.
