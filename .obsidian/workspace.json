@@ -196,6 +196,8 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java/oop/data-encapsulation.md~",
+    "java/oop/data-encapsulation.md",
     "java-spring/security/security.md~",
     "java-spring/servlet-application/servlet-container.md~",
     "java-spring/servlet-application/servlet-container.md",
@@ -230,7 +232,6 @@
     "java-spring/jpa/annotation/entity.md",
     "java-spring/core/dependency-injection/dependency-injection.md",
     "java-spring/core/bean/bean.md",
-    "java-spring/annotation/Bean.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"

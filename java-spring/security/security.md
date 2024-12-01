@@ -39,3 +39,10 @@ curl -i -u user:password http://localhost:8080/
     - Move the request through the filter pipeline.
     - Modify the `HttpServletRequest` & `HttpServletResponse` used by downstream `Filter` and `Servlet`.
     - Validating user credentials, checking roles, and more.
+# DelegatingFilterProxy
+- What?
+    - A `Filter` implementation provided by Spring.
+- Why?
+    - 
+- Functions.
+    - Allows bridging between **Servlet container** and **Spring's `ApplicationContext`**.
