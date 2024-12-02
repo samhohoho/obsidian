@@ -3,8 +3,30 @@ id: interface
 aliases: []
 tags: []
 ---
-https://dev.java/learn/lambdas/first-lambdas/
-
+https://dev.java/learn/interfaces/defining-interfaces/
+## Overview
+- What?
+    - interfaces are versatile reference types allowing you to define **default** methods and add functionality to a given type without breaking the implementing classes.
+- Why?
+    - It is important for different groups of programmers to agree to a "contract" on how their software interacts.
+    - Each group should be able to write code without any knowledge of how other's code is written.
+- Benefits.
+    - Encapsulation.
+        - To hide the details if an object's implementation.
+    - Decoupling.
+- Example.
+    - `List` interface provides a standard contract.
+        - This allows devs to work with different implementations of `List`.
+        - So we are not tied down to a single implementation.
+        - We can switch the implementation with minimal changes.
+        Because your code depends only on the `List` interface.
+- Restrictions.
+    - Method bodies exist only for default, private, and static methods.
+- Notes.
+    - If you dont specify `public`, then the interface is accessible only to classes defined in the same package.
+    - All **abstract, default, and static methods** are implicitly public.
+    - Can contain constant declarations.
+        - Are implicitly `public`, `static`, and `final`.
 - Concrete methods.
     - Starting with Java SE 8, conrete methods are allowed.
     - They can be instance methods or static methods

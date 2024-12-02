@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java-spring/security/security.md",
+                "file": "java/fundamentals/interface.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "security"
+              "title": "interface"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-spring/security/security.md"
+                "file": "java/fundamentals/interface.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of security"
+              "title": "Outline of interface"
             }
           }
         ]
@@ -196,25 +196,28 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java/fundamentals/interface.md~",
+    "java/fundamentals/record.md",
+    "java/fundamentals/record.md~",
+    "java/fundamentals/interface.md",
+    "java/interfaces/serializable.md",
+    "serializable-interface.md",
+    "java/interfaces/serializable.md~",
+    "serializable-interface.md~",
+    "java-spring/security/security.md",
     "java/oop/data-encapsulation.md~",
     "java/oop/data-encapsulation.md",
     "java-spring/security/security.md~",
     "java-spring/servlet-application/servlet-container.md~",
     "java-spring/servlet-application/servlet-container.md",
-    "java-spring/security/security.md",
     "java-spring/servlet-application",
     "java-spring/jpa/jpa.md",
     "java-spring/jpa/4913",
     "java-spring/jpa/jpa.md~",
     "java-spring/jpa/jpql.md",
-    "java-spring/code-examples/jpql-example.md~",
     "java-spring/code-examples/jpql-example.md",
-    "java-spring/jpa/jpql.md~",
     "java-spring/code-examples/jpa-example.md",
-    "java-spring/code-examples/jpa-example.md~",
     "java/interface-and-abstract/interface.md",
-    "java/lambda-expression.md~",
-    "java/interface-and-abstract/interface.md~",
     "java/lambda-expression.md",
     "java/interface/invocation.md",
     "leetcode/complexity.md",
@@ -228,10 +231,6 @@
     "java-spring/annotation/Entity.md",
     "java-spring/annotation/entity.md",
     "java-spring/annotation/Transactional.md",
-    "java-spring/jpa/faq.md",
-    "java-spring/jpa/annotation/entity.md",
-    "java-spring/core/dependency-injection/dependency-injection.md",
-    "java-spring/core/bean/bean.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
