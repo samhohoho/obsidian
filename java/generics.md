@@ -3,11 +3,105 @@ id: generics
 aliases: []
 tags: []
 ---
+# Overview
+- What?
+    - Parameterized types (classes and interfaces).
+    - Enable types to be parameters when defining classes, interfaces, and methods.
+- Why?
+    - To re-use the same code with different inputs.
+    - To write type-safe collections.
+    - More type-safety.
+    - Stronger type checks at compile time.
+    Problems can be caught at compile-time instead of runtime.
+- Notes:
+    - `T` in `Foo<T>` is a type parameter.
+    - `String` in `Foo<String> f` is a type argument. 
+## Elimination of casts.
+```java
+List list = new ArrayList();
+list.add("hello");
+String s = (String) list.get(0);
+```
+```java
+List<String> list = new ArrayList<String>();
+list.add("hello");
+String s = list.get(0);   // no cast
+```
+- Features:
+    - To implement generic algorithms.
+# Generic types
+A generic type is a generic class/interface that is parameterized over types.
+## Without generic
+```java
+public class Box {
+    private Object object;
 
-**Generics means more type-safety.**
+    public void set(Object object) { this.object = object; }
+    public Object get() { return object; }
+}
+```
+- Problems.
+    - You are free to pass in whatever you want (except primitive types).
+    - There is no way to verify, at compile-time, how the class is used.
+    - One part of the code may expect to get objects of type `Integer`.
+    The other part may pass n a `String`, resulting in a runtime error.
+## With generic
+```java
+class name<T1, T2, ..., Tn> { /* ... */ }
+```
+```java
+/**
+ * Generic version of the Box class.
+ * @param <T> the type of the value being boxed
+ */
+public class Box<T> {
+    // T stands for "Type"
+    private T t;
 
-The main point is to let you write type-safe collections,
-where more problems are caught at compile-time instead of runtime.
+    public void set(T t) { this.t = t; }
+    public T get() { return t; }
+}
+```
+## Type parameter naming convention
+E - Element (used by Java collections frameworks)
+K - Key
+N - Number
+T - Type
+V - Value
+## The Diamond `<>`
+- What?
+    - With an empty set of type arguments,
+    the compiler can determince/infer the type arguments from the context.
+```java
+OrderedPair<String, Integer> p1 = new OrderedPair<>("Even", 8);
+OrderedPair<String, String>  p2 = new OrderedPair<>("hello", "world");
+```
+## Multiple Type Parameters
+```java
+public interface Pair<K, V> {
+    public K getKey();
+    public V getValue();
+}
+
+public class OrderedPair<K, V> implements Pair<K, V> {
+
+    private K key;
+    private V value;
+
+    public OrderedPair(K key, V value) {
+    this.key = key;
+    this.value = value;
+    }
+
+    public K getKey()    { return key; }
+    public V getValue() { return value; }
+}
+
+Pair<String, Integer> p1 = new OrderedPair<String, Integer>("Even", 8);
+Pair<String, String>  p2 = new OrderedPair<String, String>("hello", "world");
+```
+====
+<!-- where more problems are caught at compile-time instead of runtime. -->
 
 Without generics, objects go in as a reference to `SoccerBall` object,
 and come out as a reference of type `Object`.

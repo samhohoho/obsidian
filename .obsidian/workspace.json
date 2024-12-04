@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/fundamentals/interface.md",
+                "file": "java/generics.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interface"
+              "title": "generics"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/fundamentals/interface.md"
+                "file": "java/generics.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of interface"
+              "title": "Outline of generics"
             }
           }
         ]
@@ -196,10 +196,11 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java/generics.md~",
+    "java/fundamentals/interface.md",
     "java/fundamentals/interface.md~",
     "java/fundamentals/record.md",
     "java/fundamentals/record.md~",
-    "java/fundamentals/interface.md",
     "java/interfaces/serializable.md",
     "serializable-interface.md",
     "java/interfaces/serializable.md~",
