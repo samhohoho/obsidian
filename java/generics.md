@@ -3,14 +3,16 @@ id: generics
 aliases: []
 tags: []
 ---
+https://dev.java/learn/generics/intro/#raw-types
 # Overview
 - What?
     - Parameterized types (classes and interfaces).
     - Enable types to be parameters when defining classes, interfaces, and methods.
+    - [Parametric polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism)
 - Why?
+    - Allow the "outside world" to specify an actual type.
     - To re-use the same code with different inputs.
     - To write type-safe collections.
-    - More type-safety.
     - Stronger type checks at compile time.
     Problems can be caught at compile-time instead of runtime.
 - Notes:
@@ -69,7 +71,7 @@ N - Number
 T - Type
 V - Value
 ## The Diamond `<>`
-- What?
+- Why?
     - With an empty set of type arguments,
     the compiler can determince/infer the type arguments from the context.
 ```java
@@ -100,6 +102,38 @@ public class OrderedPair<K, V> implements Pair<K, V> {
 Pair<String, Integer> p1 = new OrderedPair<String, Integer>("Even", 8);
 Pair<String, String>  p2 = new OrderedPair<String, String>("hello", "world");
 ```
+# Generic methods
+- What?
+    - Similar to generic type, but the type parameter's scope is limited to the method.
+- Notes.
+    - Static, non-static, and class constructors are allowed.
+```java
+public class Util {
+    public static <K, V> boolean compare(Pair<K, V> p1, Pair<K, V> p2) {
+        return p1.getKey().equals(p2.getKey()) &&
+               p1.getValue().equals(p2.getValue());
+    }
+}
+
+boolean same = Util.<Integer, String>compare(p1, p2);
+boolean same = Util.compare(p1, p2); // type inference
+```
+# Bounded type parameters
+- What?
+    - Allow the "inside world" to iuse a commonality.
+    - Restrict the type.
+    - A bound means the `T` must be `Number` or a subclass of `Number`.
+- Note.
+    - `extends` = `extends` or `implements`
+- Links.
+    - https://stackoverflow.com/a/30293011/17881174
+```java
+public <U extends Number> void inspect(U u){ // Only numbers
+    System.out.println("U: " + u.getClass().getName());
+}
+```
+## Multiple bounds
+
 ====
 <!-- where more problems are caught at compile-time instead of runtime. -->
 
