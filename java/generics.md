@@ -115,6 +115,9 @@ public class Util {
     }
 }
 
+Pair<Integer, String> p1 = new Pair<>(1, "apple");
+Pair<Integer, String> p2 = new Pair<>(2, "pear");
+
 boolean same = Util.<Integer, String>compare(p1, p2);
 boolean same = Util.compare(p1, p2); // type inference
 ```
@@ -133,6 +136,43 @@ public <U extends Number> void inspect(U u){ // Only numbers
 }
 ```
 ## Multiple bounds
+- What?
+    - A subtype of all types listed in the bound.
+- Notes.
+    - The class must be specified first.
+```java
+Class A { /* ... */ }
+interface B { /* ... */ }
+interface C { /* ... */ }
+
+class D <T extends A & B & C> { /* ... */ }
+```
+# Examples
+## Generic Methods and Bounded Type Parameters
+```java
+public static class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
+
+    protected final T data;
+    protected final List<Node<T>> adj;
+
+    public Node(T data) {
+        this.data = data;
+        adj = new ArrayList<Node<T>>();
+    }
+
+    @Override
+    public int compareTo(Node<T> other) {
+        return data.compareTo(other.data);
+    }
+}
+```
+- Notes.
+    - Type parameter `T` is constrainted to types that implement `Comparable<T>`.
+    To ensure `T` can be compared using the `compareTo` method.
+    - The `Node` class implements `Comparable<Node<T>>`.
+    Node instances can also be compared.
+    - The comparison is delegated to the `compareTo` method.
+    This method allows to compare `Node` instances based on their `data`.
 
 ====
 <!-- where more problems are caught at compile-time instead of runtime. -->
