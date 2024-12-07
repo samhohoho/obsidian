@@ -12,14 +12,10 @@
             "id": "44a48fbaf5366d79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "java/generics.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "generics"
+              "title": "New tab"
             }
           }
         ]
@@ -34,11 +30,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "java/generics.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of generics"
+              "title": "Outline"
             }
           }
         ]
@@ -196,6 +190,8 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "java/generics.md",
+    "java/fundamentals/generics.md",
     "java/generics.md~",
     "java/fundamentals/interface.md",
     "java/fundamentals/interface.md~",
@@ -214,7 +210,6 @@
     "java-spring/servlet-application",
     "java-spring/jpa/jpa.md",
     "java-spring/jpa/4913",
-    "java-spring/jpa/jpa.md~",
     "java-spring/jpa/jpql.md",
     "java-spring/code-examples/jpql-example.md",
     "java-spring/code-examples/jpa-example.md",
@@ -231,7 +226,6 @@
     "java-spring/code-examples.md",
     "java-spring/annotation/Entity.md",
     "java-spring/annotation/entity.md",
-    "java-spring/annotation/Transactional.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
