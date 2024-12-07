@@ -102,6 +102,9 @@ public class OrderedPair<K, V> implements Pair<K, V> {
 Pair<String, Integer> p1 = new OrderedPair<String, Integer>("Even", 8);
 Pair<String, String>  p2 = new OrderedPair<String, String>("hello", "world");
 ```
+# Raw types
+- What?
+    - A generic class or interface without any type arguments.
 # Generic methods
 - What?
     - Similar to generic type, but the type parameter's scope is limited to the method.
@@ -147,6 +150,36 @@ interface C { /* ... */ }
 
 class D <T extends A & B & C> { /* ... */ }
 ```
+# Generics, inheritance, and subtypes
+- What?
+    - "is a" relationship, same with generics.
+```java
+Box<Number> box = new Box<Number>();
+box.add(new Integer(10));   // OK
+box.add(new Double(10.1));  // OK
+```
+## What type of argument does it accept?
+```java
+public void boxTest(Box<Number> n) { /* ... */ }
+```
+- Notes.
+    - Not allowed to pass in `Box<Integer>` or `Box<Double>`.
+    - `Box<Integer>` and `Box<Double>` are not subtypes of `Box<Number>`.
+# Type inference
+## Generic constructors
+- What?
+    - Constructors can be generic in both generic and non-generic classes.
+```java
+class MyClass<X> {
+  <T> MyClass(T t) {
+    // ...
+  }
+}
+
+new MyClass<Integer>("")
+```
+- Notes.
+    - The compiler infers the type `String` for the formal type parameter of the constructor.
 # Examples
 ## Generic Methods and Bounded Type Parameters
 ```java
