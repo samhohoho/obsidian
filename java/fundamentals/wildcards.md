@@ -58,3 +58,14 @@ printList(ls);
     - Any concrete type is a subtype of `List<?>`.
 # Lower Bounded Wildcards
 - What?
+    - Restricts the unknown type to be a specific type or a super type of that type.
+    - `<? super A>`
+- Example.
+    - A method that works on lists of `Integer` and the supertypes of `Integer`, such as `Number`, and `Object`.
+```java
+public static void addNumbers(List<? super Integer> list) {
+    for (int i = 1; i <= 10; i++) {
+        list.add(i);
+    }
+}
+```
