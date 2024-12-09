@@ -44,3 +44,39 @@ int sum = filteredPopulations.sum();
     - https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
     - https://stackoverflow.com/questions/47688418/what-is-the-difference-between-intermediate-and-terminal-operations
 # Adding intermediate operation on a stream
+```java
+List<String> strings = List.of("one", "two", "three", "four");
+Function<String, Integer> toLength = String::length;
+Stream<Integer> ints = strings.stream()
+                              .map(toLength);
+```
+## Mapping a Stream to another Stream
+- What?
+    - The `map()` method, which takes `Function` as an argument.
+## Filtering a stream
+- What?
+    - Discarding some elements with a predicate.
+## Flatmapping a stream
+```java
+public class City {
+    private String name;
+    private int population;
+}
+
+public class State {
+    private String name;
+    private List<City> cities;
+}
+
+List<State> states = ...;
+int totalPopulation = 
+        states.stream()
+              .flatMap(state -> state.getCities().stream())
+              .mapToInt(City::getPopulation)
+              .sum();
+```
+- Notes.
+    - The first step consists of the mapping of all the elements of the stream.
+    From `Stream<State>` to `Stream<Stream<City>>`, because every state is mapped to a stream of cities.
+    - The second step consists of flattening the stream of streams.
+    Instead of having stream of streams of cities, you end up with a single stream, with all the cities.
