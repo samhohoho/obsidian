@@ -80,3 +80,31 @@ int totalPopulation =
     From `Stream<State>` to `Stream<Stream<City>>`, because every state is mapped to a stream of cities.
     - The second step consists of flattening the stream of streams.
     Instead of having stream of streams of cities, you end up with a single stream, with all the cities.
+## Using Flatmap and MapMulti to validate elements transformation
+```java
+Function<String, Stream<Integer>> flatParser = s -> {
+    try {
+        return Stream.of(Integer.parseInt(s));
+    } catch (NumberFormatException e) {
+    }
+    return Stream.empty();
+};
+
+List<String> strings = List.of("1", " ", "2", "3 ", "", "3");
+List<Integer> ints = 
+    strings.stream()
+           .flatMap(flatParser)
+           .collect(Collectors.toList());
+System.out.println("ints = " + ints);
+```
+- Example
+    - Remove buggy strings: empty, null, or blank characters.
+- Problems.
+    - It has an overhead.
+        - `Stream.of()`
+            - Stream creation for every element.
+            - Can become costly for large input collections.
+        - `Stream.empty()`
+            - Adds extra overhead for each invalid string.
+        - Exception handling.
+            - Exceptions are expensive in terms of performance, if thrown frequently.
