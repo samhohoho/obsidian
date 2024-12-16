@@ -61,3 +61,33 @@ CREATE TABLE t1 (
   FOREIGN KEY (b, c) REFERENCES other_table (c1, c2)
 );
 ```
+### Self-referential foreign key
+- What?
+    - A table that references the primary key of the same table.
+- Why?
+    - To have rows to represent nodes of a tree structure.
+    - To establish hierarchical/recursive relationships within the same entity.
+    - It simplifies queries and schema design by avoiding additional tables for parent-child relationships.
+- cons.
+    - Recursive relationships can make queries complex and potentially inefficient for deep hierarchies in large datasets.
+- Example.
+    - Finding all employees under a specific manager.
+    - Fetching all subcategories for a given category.
+```sql
+CREATE TABLE Employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    manager_id INT,
+    FOREIGN KEY (manager_id) REFERENCES Employee (id)
+);
+```
+```
+Employee Table
++----+----------+-------------+
+| ID | Name     | Manager_ID  |
++----+----------+-------------+
+| 1  | Alice    | NULL        |  <-- Alice has no manager (top-level)
+| 2  | Bob      | 1           |  <-- Bob reports to Alice
+| 3  | Charlie  | 2           |  <-- Charlie reports to Bob
++----+----------+-------------+
+```

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/sql.md",
+                "file": "chatgpt/ecommerce/db/self-referential.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sql"
+              "title": "self-referential"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/sql.md"
+                "file": "chatgpt/ecommerce/db/self-referential.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of sql"
+              "title": "Outline of self-referential"
             }
           }
         ]
@@ -196,9 +196,13 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "database/sql.md",
+    "chatgpt/ecommerce/db/self-referential.md~",
+    "chatgpt/ecommerce/db/self-referential.md",
+    "chatgpt/ecommerce/db",
+    "chatgpt/ecommerce",
     "database/sql.md~",
     "java/fundamentals/exception.md",
-    "database/sql.md",
     "database",
     "java/fundamentals/exception.md~",
     "java/fundamentals/stream-api.md",
@@ -211,11 +215,8 @@
     "java/fundamentals/interface.md",
     "java/fundamentals/interface.md~",
     "java/fundamentals/record.md",
-    "java/fundamentals/record.md~",
     "java/interfaces/serializable.md",
     "serializable-interface.md",
-    "java/interfaces/serializable.md~",
-    "serializable-interface.md~",
     "java-spring/security/security.md",
     "java/oop/data-encapsulation.md",
     "java-spring/servlet-application/servlet-container.md",
@@ -230,7 +231,6 @@
     "java-spring/interface/CommandLineRunner.md",
     "java-spring/hibernate/hibernate.md",
     "java-spring/annotation/SpringBootApplication.md",
-    "java-spring/annotation/Repository.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
