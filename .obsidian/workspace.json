@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/ecommerce/db/self-referential.md",
+                "file": "sql/basic.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "self-referential"
+              "title": "basic"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chatgpt/ecommerce/db/self-referential.md"
+                "file": "sql/basic.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of self-referential"
+              "title": "Outline of basic"
             }
           }
         ]
@@ -196,24 +196,31 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "git/stash.md~",
+    "git/stash.md",
+    "git/stash",
+    "sql/basic.md~",
+    "sql/joins.md",
+    "sql/where.md",
+    "sql/basic.md",
+    "sql/where.md~",
+    "sql/joins.md~",
+    "mybatis/mybatis.md",
+    "mybatis/mybatis.md~",
+    "java/mybatis/index.md",
+    "chatgpt/ecommerce/db/self-referential.md",
     "database/sql.md",
     "chatgpt/ecommerce/db/self-referential.md~",
-    "chatgpt/ecommerce/db/self-referential.md",
     "chatgpt/ecommerce/db",
     "chatgpt/ecommerce",
     "database/sql.md~",
     "java/fundamentals/exception.md",
     "database",
-    "java/fundamentals/exception.md~",
     "java/fundamentals/stream-api.md",
-    "java/fundamentals/stream-api.md~",
     "java/fundamentals/wildcards.md",
-    "java/fundamentals/wildcards.md~",
     "java/fundamentals/generics.md",
     "java/generics.md",
-    "java/generics.md~",
     "java/fundamentals/interface.md",
-    "java/fundamentals/interface.md~",
     "java/fundamentals/record.md",
     "java/interfaces/serializable.md",
     "serializable-interface.md",
@@ -225,12 +232,6 @@
     "java-spring/code-examples/jpql-example.md",
     "java-spring/code-examples/jpa-example.md",
     "java/interface-and-abstract/interface.md",
-    "java/lambda-expression.md",
-    "java/interface/invocation.md",
-    "leetcode/complexity.md",
-    "java-spring/interface/CommandLineRunner.md",
-    "java-spring/hibernate/hibernate.md",
-    "java-spring/annotation/SpringBootApplication.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
