@@ -30,6 +30,26 @@ tags: []
             (matches "AND", but not "AN")
     - Checking for null: `IS NULL` or `IS NOT NULL`
         - `column IS NULL`
+# Table and column aliases
+## Parentheses resolve ambiguities
+```sql
+SELECT * FROM my_table AS a CROSS JOIN my_table AS b ...
+SELECT * FROM (my_table AS a CROSS JOIN my_table) AS b ...
+```
+- First statement assigns the alias `b` to the second instance of `my_table`.
+- Second statement assigns the alias to the result of the join.
+## Not valid vs valid
+```sql
+SELECT a.* FROM my_table AS a JOIN your_table AS b ON ...
+SELECT a.* FROM (my_table AS a JOIN your_table AS b ON ...) AS c
+```
+- First statement is valid.
+- Second is not valid because the table alias `a` is not visible outside the alias `c`.
+# Subqueries
+- Links
+    - https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-SUBQUERIES
+- Best practices
+    - Writing alias for subquery.
 # Notes
 ## Null values
 - Good to reduce the possibility if `NULL` values.

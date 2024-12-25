@@ -3,11 +3,11 @@ id: joins
 aliases: []
 tags: []
 ---
-
-# `INNER JOIN`
 - Combine row data across two separate tables using unique key.
 - `INNER JOIN` = `JOIN`
 - `LEFT JOIN` = `LEFT OTHER JOIN`: Keep left.
+- Restriction in the `ON` clause is processed before the join.
+While a restriction placed in the `WHERE` clause is processed after the join
 ```sql
 SELECT column, another_table_column, …
 FROM mytable
