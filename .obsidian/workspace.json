@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/fundamentals/io.md",
+                "file": "java/maven/todo.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "io"
+              "title": "todo"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/fundamentals/io.md"
+                "file": "java/maven/todo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of io"
+              "title": "Outline of todo"
             }
           }
         ]
@@ -196,12 +196,29 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "docker/basic/container.md",
+    "java/maven/todo.md",
+    "my-proj/setup.md~",
+    "my-proj/setup.md",
+    "docker/basic/container.md~",
+    "docker/basic/image.md",
+    "docker/todo.md",
+    "docker/troubleshooting.md",
+    "docker/dockerfile/writing-a-dockerfile.md",
+    "docker/basic/docker-compose.md",
+    "docker/common.md",
+    "docker/dockerfile/overview.md",
+    "docker/FAQs.md",
+    "docker/image-layer.md",
+    "docker/resources.md",
+    "java/fundamentals/stream-api.md",
+    "java/fundamentals/stream-api.md~",
+    "java/fundamentals/io.md",
     "java/fundamentals/todo.md~",
     "java/fundamentals/todo.md",
     "java/fundamentals/io.md~",
     "java/fundamentals/exception.md",
     "java/api/io.md",
-    "java/fundamentals/io.md",
     "java/api/io.md~",
     "sql/basic.md",
     "git/stash.md~",
@@ -211,27 +228,10 @@
     "sql/joins.md",
     "sql/where.md",
     "sql/where.md~",
-    "sql/joins.md~",
     "mybatis/mybatis.md",
-    "mybatis/mybatis.md~",
     "java/mybatis/index.md",
     "chatgpt/ecommerce/db/self-referential.md",
     "database/sql.md",
-    "chatgpt/ecommerce/db/self-referential.md~",
-    "chatgpt/ecommerce/db",
-    "java/fundamentals/stream-api.md",
-    "java/fundamentals/wildcards.md",
-    "java/fundamentals/generics.md",
-    "java/generics.md",
-    "java/fundamentals/interface.md",
-    "java/fundamentals/record.md",
-    "java/interfaces/serializable.md",
-    "serializable-interface.md",
-    "java-spring/security/security.md",
-    "java/oop/data-encapsulation.md",
-    "java-spring/servlet-application/servlet-container.md",
-    "java-spring/jpa/jpa.md",
-    "java-spring/jpa/jpql.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
