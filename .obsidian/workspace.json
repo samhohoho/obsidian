@@ -6,7 +6,7 @@
       {
         "id": "0c88fc74bd98b38d",
         "type": "tabs",
-        "dimension": 66.53796653796654,
+        "dimension": 84.9624060150376,
         "children": [
           {
             "id": "44a48fbaf5366d79",
@@ -27,7 +27,7 @@
       {
         "id": "4de4154ff7d10f2c",
         "type": "tabs",
-        "dimension": 33.46203346203346,
+        "dimension": 15.037593984962406,
         "children": [
           {
             "id": "00b267867b4953ef",
@@ -197,6 +197,9 @@
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
     "spring-start-here/4-abstractions.md~",
+    "java/glossary.md~",
+    "java/glossary.md",
+    "Pasted image 20250108142835.png",
     "java/maven/todo.md",
     "docker/basic/container.md",
     "my-proj/setup.md~",
@@ -228,10 +231,8 @@
     "sql/basic.md~",
     "sql/joins.md",
     "sql/where.md",
-    "sql/where.md~",
     "mybatis/mybatis.md",
     "java/mybatis/index.md",
-    "chatgpt/ecommerce/db/self-referential.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
