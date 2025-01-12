@@ -14,7 +14,7 @@ tags: []
 ```java
 public class DeliveryDetailsPrinter {
     private S orter sorter;
-        public DeliveryDetailsPrinter(S orter sorter) {
+        public DeliveryDetailsPrinter(Sorter sorter) {
         this.sorter = sorter;
     }
     public void printDetails() {
@@ -175,6 +175,7 @@ public class CommentService {
 }
 ```
 ## `@Bean` methods in the configuration class.
+- Auto-wiring through the parameters of the methods annotated with `@Bean`.
 ```java
 @Configuration
 public class ProjectConfiguration {
@@ -189,6 +190,8 @@ public class ProjectConfiguration {
         return new EmailCommentNotificationProxy();
     }
 
+    // The parameters are defined with interface type.
+    // Spring will provide beans references compatible with parameters type.
     @Bean
     public CommentService commentService(
         CommentRepository commentRepository,
@@ -196,5 +199,50 @@ public class ProjectConfiguration {
         return new CommentService(commentRepository,
             commentNotificationProxy);
     }
+}
+```
+# Choosing what to auto-wire from multiple implementations
+- What happens if the Spring context contains more instances that match a requested abstraction.
+- If more than one bean of the same type exists in the Spring context, you need to tell Spring which beans to inject.
+- `@Primary` mark as default.
+- `@Qualifier` refer by name for DI.
+- TIps.
+    - Sometimes you use dependencies that already provide implementations for specific interfaces.
+        - You can use `@Primary` to mark your custom implementation as a default for DI.
+## NAMING IMPLEMENTATION FOR DEPENDENCY INJECTION WITH `@QUALIFIER`
+### The CommentPushNotification class
+```java
+@Component
+@Qualifier("PUSH")
+public class CommentPushNotificationProxy
+    implements CommentNotificationProxy {
+    // Omitted code
+}
+```
+### The EmailCommentNotificationProxy class
+```java
+
+@Component
+@Qualifier("EMAIL")
+public class EmailCommentNotificationProxy
+    implements CommentNotificationProxy {
+    // Omitted code
+}
+```
+### Specifying implementation
+```java
+@Component
+public class CommentService {
+    private final CommentRepository commentRepository;
+    private final CommentNotificationProxy commentNotificationProxy;
+
+    public CommentService(
+        CommentRepository commentRepository,
+        @Qualifier("PUSH") CommentNotificationProxy commentNotificationProxy) {
+
+        this.commentRepository = commentRepository;
+        this.commentNotificationProxy = commentNotificationProxy;
+    }
+    // Omitted code
 }
 ```
