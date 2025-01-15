@@ -13,7 +13,7 @@ tags: []
     - An object only needs to specify what it needs and stay completely unaware of how the what is implemented.
 ```java
 public class DeliveryDetailsPrinter {
-    private S orter sorter;
+    private Sorter sorter;
         public DeliveryDetailsPrinter(Sorter sorter) {
         this.sorter = sorter;
     }
@@ -246,3 +246,9 @@ public class CommentService {
     // Omitted code
 }
 ```
+# Object responsibilities with stereotype annotations
+- Its a common practice to define the component's purpose using the stereotype annotation explicitly.
+- Using `@Component` is generic and gives you no detail about the responsibility of the object.
+- The **services** are the objects implementing the use cases.
+- The **repositories** manage the data persistence.
+- All three (`@Component`, `@Service`, `@Repository`) are stereotype annotations for Spring to create and add an instance of the annotated class to its context.

@@ -32,3 +32,15 @@ tags: []
     LIMIT #{offset}, #{limit}
 </select>
 ```
+
+```sql
+<insert id="insertMany" parameterType="com.eroses.external.society.model.societyLiquidation.SocietyLiquidationAsset" keyProperty="id" useGeneratedKeys="true">
+    INSERT INTO
+    <include refid="tb"/>
+    (<include refid="insertCols"/>)
+    VALUES
+    <foreach collection="list" separator="," item="asset">
+        (<include refid="insertManyVals"/>)
+    </foreach>
+</insert>
+```

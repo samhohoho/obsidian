@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring-start-here/4-abstractions.md",
+                "file": "spring-start-here/5-bean-scopes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-abstractions"
+              "title": "5-bean-scopes"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring-start-here/4-abstractions.md"
+                "file": "spring-start-here/5-bean-scopes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 4-abstractions"
+              "title": "Outline of 5-bean-scopes"
             }
           }
         ]
@@ -196,6 +196,9 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "spring-start-here/5-bean-scopes.md~",
+    "spring-start-here/4-abstractions.md",
+    "spring-start-here/5-bean-scopes.md",
     "spring-start-here/4-abstractions.md~",
     "java/glossary.md~",
     "java/glossary.md",
@@ -227,12 +230,8 @@
     "sql/basic.md",
     "git/stash.md~",
     "git/stash.md",
-    "git/stash",
-    "sql/basic.md~",
     "sql/joins.md",
     "sql/where.md",
-    "mybatis/mybatis.md",
-    "java/mybatis/index.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
