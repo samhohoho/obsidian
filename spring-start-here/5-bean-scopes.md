@@ -80,3 +80,82 @@ public class CommentService {
 # Prototype bean scope
 - Every time you request a reference to a prototype-scoped bean, Spring creates a new object instance.
 - Spring doesnt create and manage an object instance directly.
+```java
+@Configuration
+public class ProjectConfig {
+    @Bean
+    @Scope(BeanDefinition.SCOPE_PROTOTYPE)
+    public CommentService commentService() {
+        return new CommentService();
+    }
+}
+```
+```java
+@Repository
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
+public class CommentRepository {
+}
+```
+## Real-world scenarios
+- `CommentProcessor` that processes the comments and validates them.
+- A service uses the `CommentProcessor` object to implementa use case.
+- But `CommentProcessor` stores the comment to be processed as an attribute,
+and its methods change its attribute.
+```java
+public class CommentProcessor {
+    private Comment comment;
+
+    public void setComment(Comment comment) {
+        this.comment = comment;
+    }
+
+    public void getComment() {
+        return this.comment;
+    }
+
+    public void processComment() {
+        // changing the comment attribute
+    }
+
+    public void validateComment() {
+        // validating and changing the comment attribute
+    }
+}
+```
+### Does `CommentProcessor` need to be a bean?
+- Suppose it needs to use an object `CommentRepository` to persist some data.
+And `CommentRepository` is a bean.
+- Then `CommentProcessor` needs to become a bean to benefit from the DI Spring offers.
+```java
+@Component
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
+public class CommentProcessor {
+    @Autowired
+    private CommentRepository commentRepository;
+
+    // Omitted code
+}
+```
+## Using `CommentProcessor` as prototype bean
+```java
+@Service
+public class CommentService {
+    @Autowired
+    private ApplicationContext context;
+
+    public void sendComment(Comment c) {
+        // A new CommentProcessor instance is always provided here.
+        CommentProcessor p =
+            context.getBean(CommentProcessor.class);
+
+        p.setComment(c);
+        p.processComment(c);
+        p.validateComment(c);
+
+        c = p.getComment();
+        // do something further
+    }
+}
+```
+- Dont inject `CommentProcessor` directly into `CommentService` bean.
+    - Becuz the `CommentService` bean is a singleton.
