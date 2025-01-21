@@ -3,5 +3,7 @@ id: notes
 aliases: []
 tags: []
 ---
-Create new meetings
-- requre statement
+Liquidation
+External paging:
+- Possible error:
+	- Secretary not having status to "001"
