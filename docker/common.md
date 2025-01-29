@@ -7,7 +7,6 @@ tags: []
 ```
 docker container ls
 ```
-
 ```
 docker rm -f <container-id>
 ```

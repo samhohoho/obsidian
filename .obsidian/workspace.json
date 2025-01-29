@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eroses/notes.md",
+                "file": "postgres/indexing.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "indexing"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eroses/notes.md"
+                "file": "postgres/indexing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of notes"
+              "title": "Outline of indexing"
             }
           }
         ]
@@ -196,6 +196,10 @@
   },
   "active": "44a48fbaf5366d79",
   "lastOpenFiles": [
+    "postgres/indexing.md~",
+    "spring-start-here/11-consuming-endpoints.md",
+    "spring-start-here/11-consuming-endpoints.md~",
+    "eroses/notes.md",
     "spring-start-here/13-transactions.md",
     "dsa/complexity.md~",
     "dsa/complexity.md",
@@ -227,11 +231,8 @@
     "java/fundamentals/stream-api.md",
     "java/fundamentals/stream-api.md~",
     "java/fundamentals/io.md",
-    "java/fundamentals/todo.md~",
     "java/fundamentals/todo.md",
     "java/fundamentals/exception.md",
-    "java/api/io.md",
-    "sql/basic.md",
     "Pasted image 20241019170814.png",
     "Pasted image 20241019170731.png",
     "neovim/reddit/Untitled.canvas"
